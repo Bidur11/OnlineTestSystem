@@ -1,0 +1,334 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+.customLoginBox{
+	background-color: white;
+	padding: 10px;
+}
+
+#sample_editable_1_filter input[type="search"]{
+	border: 1px solid #e1e1e1;
+}
+/* .top .dataTables_paginate {
+	position: relative;
+    bottom: 36px;
+    left: 196px;
+}
+.bottom .dataTables_paginate{
+	position: relative;
+    bottom: 28px;
+} */
+.portlet > .portlet-body.blue, .portlet.blue{
+	background-color: #26A69A;
+}
+.portlet.box.blue {
+    border: 1px solid #26A69A;
+    border-top: 0;
+}
+.portlet.box.blue > .portlet-title {
+    background-color: #26A69A;
+}
+.green.btn {
+    color: white;
+    background-color: #26A69A;
+    border-color: "";
+}
+.top-menu .welcome{
+	padding: 12px;
+	border-radius: 6px !important;
+}
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle{
+	background: #26A6DE;
+}
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle{
+	padding: 12px;
+	background: #3379B5;
+	color: #fff;
+	border-radius: 6px !important;	
+}
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle:hover{
+	padding: 12px;
+	background: #26A6DE;
+}
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu{
+	background: -webkit-linear-gradient(top, #0077C0, #26A69A);
+}
+.dropdown-menu {
+	border-radius: 6px !important;
+}
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li a{
+	color: #fff !important;
+}
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li a:hover{
+	background: #26A6DE;
+	border-radius: 6px !important;
+}
+.fa-cog{
+	color: #fff;
+}
+#sample_editable_1 thead{	
+    background-color: #4DB6AC;
+    color:#fff;
+}
+#sample_editable_1 tbody{	
+    background-color: #E0F2F1;
+}
+.btnDel, .btnDelSubCat, btnDelCat{
+	background-color: #E64A19;
+    color: #fff;
+    border-color: #E64A19;
+    border-radius: 5px;
+    border-radius: 3px !important;
+}
+.btnUnDel{
+	background-color: #4DB6AC;
+    color: #fff;
+    border-color: #4DB6AC;
+    border-radius: 5px;
+    border-radius: 3px !important;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .btn-default:active:hover, .btn-default.active:hover{
+	background-color: #BF360C;
+    color: #fff;
+    border-color: #BF360C;
+}
+table tbody td a, table tbody td a:hover{
+	text-decoration: none;
+    padding: 4px 15px;
+    background-color: #26A6DE;
+    color: #fff;
+    border-radius: 3px !important;
+    font-size: 13px;
+    line-height: 1.8;
+}
+table tbody td a:hover{
+	background-color: #0288D1;
+}
+.image_link, .image_link:hover{
+	padding: 0;
+	background-color: none;
+}
+/* .pagination>.disabled>span, .pagination>.disabled>span:hover, .pagination>.disabled>span:focus, .pagination>.disabled>a, .pagination>.disabled>a:hover, .pagination>.disabled>a:focus{
+	color: #ffffff;
+    cursor: not-allowed;
+    background-color: #4DB6AC;
+    border-color: #4DB6AC;
+}
+.pagination .active > a, .pagination .active > a:hover{
+	background: #E0F2F1;
+    border-color: #E0F2F1;
+    color: #333;
+}
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus{
+	color: #2a6496;
+    background-color: #E0F2F1;
+    border-color: #E0F2F1;
+} */
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active{
+    color: #ffffff !important;
+    border: 1px solid #26A69A;
+    background: #26A69A;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active, .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    background-color: #4DB6AC;
+    background: linear-gradient(to bottom, #4DB6AC 0%, #4DB6AC 100%);
+    box-shadow: inset 0 0 3px #4DB6AC;
+    border: 1px solid #4DB6AC;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+	color: #ffffff !important;
+	background-color: #4DB6AC;
+    background: linear-gradient(to bottom, #4DB6AC 0%, #4DB6AC 100%);
+    border: 1px solid #4DB6AC;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+	background: #E0F2F1;
+}
+#s2id_autogen1 .select2-choice{
+	height: 36px;
+	width: 66px;
+	border: 1px solid #26A69A;
+}
+.score-result, .table-profile, .table-category{
+    margin-left: auto;
+    margin-right: auto;        
+}
+.score-result{
+	width: 35%;
+    text-align: center;
+}
+.score-result th, .table-profile th, .table-category th, .student-result-details th{
+	color: #fff;
+	text-align: center;
+	background: #4DB6AC;
+}
+.score-result td, .table-profile td, .table-category td, .student-result-details td, .table-striped>tbody>tr:nth-child(odd){
+	background: #E0F2F1;
+	color: #000;
+}
+.status-search{
+	line-height: 32px;
+}
+.ui-autocomplete {
+    position: absolute;
+    z-index: 1000;
+    cursor: default;
+    padding: 0;
+    margin-top: 2px;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.ui-autocomplete > li {
+  padding: 3px 20px;
+}
+.ui-autocomplete > li.ui-state-focus {
+  background-color: #DDD;
+}
+.ui-helper-hidden-accessible {
+  display: none;
+}
+.button.dt-button, div.dt-button, a.dt-button{
+    vertical-align: middle;
+    color: #ffffff !important;
+    background-color: #26A69A !important;
+    border: 1px solid #26A69A !important;
+    background-image: none !important;
+    font-weight: 400;
+    padding: 7px 14px !important;
+    font-size: 14px !important;
+}
+.button.dt-button:hover, div.dt-button:hover, a.dt-button:hover{
+	background-color: #298337 !important;
+	border: 1px solid #298337 !important;
+}
+.help_links{
+	margin: 20px 0;
+    border: 2px solid #26A69A;
+    border-radius: 10px !important;
+    padding: 10px;
+}
+.help_links img{
+	border: 2px solid #26A69A;
+    border-radius: 10px !important;
+}
+.help_description{
+	border: 2px solid #26A69A;
+    border-radius: 10px !important;
+    background: #26A69A;
+    color: #fff;
+    font-size: 14px;
+}
+.welcome_header, .completed_header{
+	background: #26A69A;
+	color: #ffffff;
+	padding: 10px;
+}
+.welcome_header h1{
+	padding:0;
+	margin:0;
+}
+.carousel-caption h1, .carousel-caption p{
+	background: #26A69A !important;
+	opacity: .8;
+	border-radius: 10px !important; 
+	padding: 10px;
+}
+.carousel-caption p{
+	padding: 1px;
+}
+.portlet.light{
+	padding:0;
+}
+.margin-bottom-10{
+	margin-bottom: 10px;
+}
+.readme_list li{
+	padding: 5px;
+	font-size: 14px;
+}
+.test_header{
+	background-color: #26A69A;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 10px 0;
+    border-radius: 30px;
+}
+.test_body .questionNumber{
+	text-align: center;
+	background-color: #4DB6AC;
+	color: #fff;
+	padding: 5px;
+	border-radius: 30px 30px 0 0;
+	margin: 0;
+}
+.test_description{
+	padding: 10px 50px;
+	background: #E0F2F1;
+	border-radius: 0 0 30px 30px !important;
+}
+#showtime{
+	position: absolute;
+    right: 45px;
+    top: 10px;
+}
+.btnPrev{
+	border-radius: 30px 0 0 30px !important;
+}
+.btnNext{
+	border-radius: 0 30px 30px 0 !important;
+}
+#radOption .description{
+	font-weight: 500;
+}
+#categoryDto{
+	padding: 20px;
+	background: #E0F2F1;
+	border-radius: 0 0 30px 30px;
+}
+.category_select_heading{
+	margin: 0;
+	border-radius: 30px 30px 0 0;
+	background: #4DB6AC;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+.btnSubmitCat{
+	border-radius: 20px !important;
+}
+hr {
+  border-color: #4DB6AC;
+}
+#snowspawner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.completed_body{
+	background: #E0F2F1;
+}
